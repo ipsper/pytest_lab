@@ -16,6 +16,7 @@ deactivate
 ```
 rm -rf $HOME/repo/pytest_lab/pytest_lab_venv
 ```
+[For test information](tests/README.md#tests)
 
 ## Run tests 
 ```
