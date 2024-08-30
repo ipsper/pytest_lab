@@ -17,7 +17,7 @@ deactivate
 rm -rf $HOME/repo/pytest_lab/pytest_lab_venv
 ```
 ## Other documentation
-[Test information](tests/README.md)
-[Tools api information](tools/README.md)
+- [Test information](tests/README.md)
+- [Tools api information](tools/README.md)
 
 
