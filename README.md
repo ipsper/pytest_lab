@@ -16,11 +16,8 @@ deactivate
 ```
 rm -rf $HOME/repo/pytest_lab/pytest_lab_venv
 ```
-[For test information](tests/README.md#tests)
-
-## Run tests 
-```
-python -m pytest -sx tests/test_of_localhost.py
-```
+## Other documentation
+[Test information](tests/README.md)
+[Tools api information](tools/README.md)
 
 
