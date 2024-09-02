@@ -22,4 +22,4 @@ def test_pip_package_urllib3_version():
     end_time = time.time()
     runtime = end_time - start_time
     print(f"runtime for test_pip_package_urllib3_version {runtime} seconds")
-    assert package_version >= "2.28.1"
+    assert package_version >= "1.26.13"

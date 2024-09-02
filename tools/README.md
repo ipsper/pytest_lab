@@ -8,4 +8,5 @@ https://playwright.dev/
 
 ## locust api
 https://locust.io/
+https://pypi.org/project/locust/
 
