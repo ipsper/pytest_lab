@@ -21,3 +21,15 @@ rm -rf $HOME/repo/pytest_lab/pytest_lab_venv
 - [Tools api information](tools/README.md)
 
 
+
+curl -XPOST -H "Content-Type: application/json" -d '[{"log": "hello world demo!"}]' http://localhost:9200/log/ingest
+
+
+curl -XGET "http://localhost:9200/_cluster/allocation/explain?include_yes_decisions=true" -H 'Content-Type: application/json' -d'
+{
+  "index": "movies",
+  "shard": 0,
+  "primary": true
+}'
+
+curl -XGET "http://localhost:9200/_cluster/stats/nodes/_cluster_manager"
